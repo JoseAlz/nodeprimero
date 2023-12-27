@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>First Node Project</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <%- include("partials/navigation") %>
+
+    <!-- MAIN CONTENT -->
+
+    <header
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/BD2022.png" class="w-25 m-auto" alt="Website Logo" />
+        <h1 class="display-1 my-5 text-uppercase fw-bold">BEAT DATA</h1>
+        <a href="/about" class="btn btn-primary w-25">About Us</a>
+      </div>
+    </header>
+
+    <!-- section one -->
+    <div class="container-fluid" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-md-4 offset-md-4">
+          <h3>Futurismo.</h3>
+          <p>
+            En Italia el futurismo, un movimiento de las corrientes de
+            vanguardia artística fundado por Filippo Tommaso Marinetti, se
+            acercó a la estética musical como una transformación desde un ángulo
+            diferente. Una idea de la filosofía futurista era la de valorar el
+            ruido, así como de dotar de valor artístico y expresivo a ciertos
+            sonidos que anteriormente no habían sido considerados como
+            musicales.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
